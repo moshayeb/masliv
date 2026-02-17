@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FOLD RING — MASLIV</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Snipcart CSS -->
     <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.4.1/default/snipcart.css" />
 </head>
 
 <body>
     <header class="site-header">
-        <div class="header-left"></div>
-        <nav class="header-right">
-            <a href="index.html">SHOP</a>
+        <div class="header-logo">
+            <img src="images/logo.png" alt="MASLIV" class="header-logo-img">
+        </div>
+        <nav class="header-nav">
+            <a href="index.html">HOME</a>
             <a href="info.html">INFO</a>
             <a href="#" class="snipcart-checkout">CART (<span class="snipcart-items-count">0</span>)</a>
         </nav>
@@ -69,14 +72,52 @@
         </div>
     </main>
 
+
     <footer class="site-footer">
-        <div class="footer-logo">
-            <img src="images/logo.png" alt="MASLIV" class="masliv-logo">
+
+
+        <!-- Footer main content -->
+        <div class="footer-content">
+            <!-- Left column: Links -->
+            <div class="footer-links">
+                <a href="index.html">HOME</a>
+                <a href="policies.html">SHIPPING</a>
+                <a href="policies.html">RETUR</a>
+                <a href="policies.html">PRIVACY</a>
+                <a href="policies.html">POLICY</a>
+                <a href="info.html">CONTACT US</a>
+                <a href="info.html">ABOUT MASLIV</a>
+
+            </div>
+
+            <!-- Middle column: Newsletter -->
+            <div class="footer-newsletter">
+                <p>Subscribe to our newsletter for 10% off your first order.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">→</button>
+                </form>
+            </div>
+
+            <!-- Right column: Payment methods -->
+            <div class="footer-payments">
+                <span>We accept</span>
+                <div class="payment-icons">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-google-pay"></i>
+                    <i class="fab fa-apple-pay"></i>
+                </div>
+            </div>
         </div>
-        <div
-            style="margin-top: 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+
+
+        <!-- Copyright row -->
+        <div class="footer-bottom">
             <div class="caption">© 2026 MASLIV</div>
-            <div class="caption" style="letter-spacing:0.1em;">STERLING & STEEL</div>
+            <div class="caption">Malmö, Sweden</div>
         </div>
     </footer>
 
@@ -87,6 +128,8 @@
         data-api-key="NGMxMjVkNjItNzM4ZS00ZGVhLWE3MjMtY2YxNGVjZjRhNjc0NjM5MDY4MDQ5MDA1MjgyMDA2"></script>
     <div id="snipcart" data-api-key="NGMxMjVkNjItNzM4ZS00ZGVhLWE3MjMtY2YxNGVjZjRhNjc0NjM5MDY4MDQ5MDA1MjgyMDA2" hidden>
     </div>
+
+
 </body>
 
 </html>
